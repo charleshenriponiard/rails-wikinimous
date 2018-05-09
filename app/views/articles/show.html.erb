@@ -1,5 +1,10 @@
-<%= link_to "edit", edit_article_path(@article) %>
-<p> <%= link_to "Delete", article_path(@article), method: :delete %> </p>
+<div class="nav">
+  <%= link_to "edit", edit_article_path(@article) %>
+  <p> <%= link_to "Delete", article_path(@article), method: :delete %> </p>
+</div>
+
+
+
 
 
 <h3> <%= @article.title %></h3>
